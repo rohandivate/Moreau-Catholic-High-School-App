@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0904D5B81B8005410051E681 /* example.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0904D5B71B8005410051E681 /* example.txt */; };
+		091282F81B3B7F9600F63590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091282F71B3B7F9600F63590 /* main.m */; };
+		091282FB1B3B7F9600F63590 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 091282FA1B3B7F9600F63590 /* AppDelegate.m */; };
+		091282FE1B3B7F9600F63590 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091282FD1B3B7F9600F63590 /* FirstViewController.m */; };
+		091283011B3B7F9600F63590 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091283001B3B7F9600F63590 /* SecondViewController.m */; };
+		091283041B3B7F9600F63590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091283021B3B7F9600F63590 /* Main.storyboard */; };
+		091283061B3B7F9600F63590 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091283051B3B7F9600F63590 /* Images.xcassets */; };
+		091283091B3B7F9600F63590 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091283071B3B7F9600F63590 /* LaunchScreen.xib */; };
+		091283151B3B7F9700F63590 /* Moreau_Catholic_High_SchoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091283141B3B7F9700F63590 /* Moreau_Catholic_High_SchoolTests.m */; };
+		091283201B3B810A00F63590 /* DirectoryTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0912831F1B3B810A00F63590 /* DirectoryTableTableViewController.m */; };
+		091283231B3B82C600F63590 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 091283221B3B82C600F63590 /* Person.m */; };
+		091283261B3BAFDD00F63590 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091283251B3BAFDD00F63590 /* InfoViewController.m */; };
+		091C5C1D1C01A64000B66C7E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C5C1C1C01A64000B66C7E /* MapKit.framework */; };
+		09DAFF891B9D021100837CE1 /* MoreauInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DAFF881B9D021100837CE1 /* MoreauInfoViewController.m */; };
+		09DAFF8B1B9E3E5300837CE1 /* directory.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09DAFF8A1B9E3E5200837CE1 /* directory.txt */; };
+		09FB94E41B7BD4BA00E970C9 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB94E31B7BD4BA00E970C9 /* Event.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0912830F1B3B7F9700F63590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 091282EA1B3B7F9600F63590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091282F11B3B7F9600F63590;
+			remoteInfo = "Moreau Catholic High School";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0904D5B71B8005410051E681 /* example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = example.txt; path = ../../example.txt; sourceTree = "<group>"; };
+		091282F21B3B7F9600F63590 /* Moreau Catholic High School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moreau Catholic High School.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		091282F61B3B7F9600F63590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091282F71B3B7F9600F63590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		091282F91B3B7F9600F63590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		091282FA1B3B7F9600F63590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		091282FC1B3B7F9600F63590 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		091282FD1B3B7F9600F63590 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		091282FF1B3B7F9600F63590 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		091283001B3B7F9600F63590 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		091283031B3B7F9600F63590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		091283051B3B7F9600F63590 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		091283081B3B7F9600F63590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0912830E1B3B7F9700F63590 /* Moreau Catholic High SchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moreau Catholic High SchoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		091283131B3B7F9700F63590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091283141B3B7F9700F63590 /* Moreau_Catholic_High_SchoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moreau_Catholic_High_SchoolTests.m; sourceTree = "<group>"; };
+		0912831E1B3B810900F63590 /* DirectoryTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryTableTableViewController.h; sourceTree = "<group>"; };
+		0912831F1B3B810A00F63590 /* DirectoryTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryTableTableViewController.m; sourceTree = "<group>"; };
+		091283211B3B82C600F63590 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		091283221B3B82C600F63590 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		091283241B3BAFDD00F63590 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		091283251B3BAFDD00F63590 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		091C5C1C1C01A64000B66C7E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		09DAFF871B9D021100837CE1 /* MoreauInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreauInfoViewController.h; sourceTree = "<group>"; };
+		09DAFF881B9D021100837CE1 /* MoreauInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreauInfoViewController.m; sourceTree = "<group>"; };
+		09DAFF8A1B9E3E5200837CE1 /* directory.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = directory.txt; path = ../../directory.txt; sourceTree = "<group>"; };
+		09FB94E21B7BD4BA00E970C9 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		09FB94E31B7BD4BA00E970C9 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		091282EF1B3B7F9600F63590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091C5C1D1C01A64000B66C7E /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0912830B1B3B7F9700F63590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091282E91B3B7F9600F63590 = {
+			isa = PBXGroup;
+			children = (
+				091C5C1C1C01A64000B66C7E /* MapKit.framework */,
+				091282F41B3B7F9600F63590 /* Moreau Catholic High School */,
+				091283111B3B7F9700F63590 /* Moreau Catholic High SchoolTests */,
+				091282F31B3B7F9600F63590 /* Products */,
+				0904D5B71B8005410051E681 /* example.txt */,
+				09DAFF8A1B9E3E5200837CE1 /* directory.txt */,
+			);
+			sourceTree = "<group>";
+		};
+		091282F31B3B7F9600F63590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				091282F21B3B7F9600F63590 /* Moreau Catholic High School.app */,
+				0912830E1B3B7F9700F63590 /* Moreau Catholic High SchoolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		091282F41B3B7F9600F63590 /* Moreau Catholic High School */ = {
+			isa = PBXGroup;
+			children = (
+				091282F91B3B7F9600F63590 /* AppDelegate.h */,
+				091282FA1B3B7F9600F63590 /* AppDelegate.m */,
+				091282FC1B3B7F9600F63590 /* FirstViewController.h */,
+				0912831E1B3B810900F63590 /* DirectoryTableTableViewController.h */,
+				0912831F1B3B810A00F63590 /* DirectoryTableTableViewController.m */,
+				091283211B3B82C600F63590 /* Person.h */,
+				091283221B3B82C600F63590 /* Person.m */,
+				091282FD1B3B7F9600F63590 /* FirstViewController.m */,
+				091282FF1B3B7F9600F63590 /* SecondViewController.h */,
+				091283001B3B7F9600F63590 /* SecondViewController.m */,
+				09FB94E21B7BD4BA00E970C9 /* Event.h */,
+				09FB94E31B7BD4BA00E970C9 /* Event.m */,
+				091283021B3B7F9600F63590 /* Main.storyboard */,
+				091283241B3BAFDD00F63590 /* InfoViewController.h */,
+				091283251B3BAFDD00F63590 /* InfoViewController.m */,
+				09DAFF871B9D021100837CE1 /* MoreauInfoViewController.h */,
+				09DAFF881B9D021100837CE1 /* MoreauInfoViewController.m */,
+				091283051B3B7F9600F63590 /* Images.xcassets */,
+				091283071B3B7F9600F63590 /* LaunchScreen.xib */,
+				091282F51B3B7F9600F63590 /* Supporting Files */,
+			);
+			path = "Moreau Catholic High School";
+			sourceTree = "<group>";
+		};
+		091282F51B3B7F9600F63590 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091282F61B3B7F9600F63590 /* Info.plist */,
+				091282F71B3B7F9600F63590 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		091283111B3B7F9700F63590 /* Moreau Catholic High SchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				091283141B3B7F9700F63590 /* Moreau_Catholic_High_SchoolTests.m */,
+				091283121B3B7F9700F63590 /* Supporting Files */,
+			);
+			path = "Moreau Catholic High SchoolTests";
+			sourceTree = "<group>";
+		};
+		091283121B3B7F9700F63590 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				091283131B3B7F9700F63590 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		091282F11B3B7F9600F63590 /* Moreau Catholic High School */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091283181B3B7F9700F63590 /* Build configuration list for PBXNativeTarget "Moreau Catholic High School" */;
+			buildPhases = (
+				091282EE1B3B7F9600F63590 /* Sources */,
+				091282EF1B3B7F9600F63590 /* Frameworks */,
+				091282F01B3B7F9600F63590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moreau Catholic High School";
+			productName = "Moreau Catholic High School";
+			productReference = 091282F21B3B7F9600F63590 /* Moreau Catholic High School.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0912830D1B3B7F9700F63590 /* Moreau Catholic High SchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0912831B1B3B7F9700F63590 /* Build configuration list for PBXNativeTarget "Moreau Catholic High SchoolTests" */;
+			buildPhases = (
+				0912830A1B3B7F9700F63590 /* Sources */,
+				0912830B1B3B7F9700F63590 /* Frameworks */,
+				0912830C1B3B7F9700F63590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				091283101B3B7F9700F63590 /* PBXTargetDependency */,
+			);
+			name = "Moreau Catholic High SchoolTests";
+			productName = "Moreau Catholic High SchoolTests";
+			productReference = 0912830E1B3B7F9700F63590 /* Moreau Catholic High SchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		091282EA1B3B7F9600F63590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Rohan Divate";
+				TargetAttributes = {
+					091282F11B3B7F9600F63590 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 993J628JS2;
+					};
+					0912830D1B3B7F9700F63590 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 091282F11B3B7F9600F63590;
+					};
+				};
+			};
+			buildConfigurationList = 091282ED1B3B7F9600F63590 /* Build configuration list for PBXProject "Moreau Catholic High School" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 091282E91B3B7F9600F63590;
+			productRefGroup = 091282F31B3B7F9600F63590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				091282F11B3B7F9600F63590 /* Moreau Catholic High School */,
+				0912830D1B3B7F9700F63590 /* Moreau Catholic High SchoolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		091282F01B3B7F9600F63590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091283041B3B7F9600F63590 /* Main.storyboard in Resources */,
+				0904D5B81B8005410051E681 /* example.txt in Resources */,
+				09DAFF8B1B9E3E5300837CE1 /* directory.txt in Resources */,
+				091283091B3B7F9600F63590 /* LaunchScreen.xib in Resources */,
+				091283061B3B7F9600F63590 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0912830C1B3B7F9700F63590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091282EE1B3B7F9600F63590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091283231B3B82C600F63590 /* Person.m in Sources */,
+				091283011B3B7F9600F63590 /* SecondViewController.m in Sources */,
+				091282FB1B3B7F9600F63590 /* AppDelegate.m in Sources */,
+				091282FE1B3B7F9600F63590 /* FirstViewController.m in Sources */,
+				09FB94E41B7BD4BA00E970C9 /* Event.m in Sources */,
+				09DAFF891B9D021100837CE1 /* MoreauInfoViewController.m in Sources */,
+				091282F81B3B7F9600F63590 /* main.m in Sources */,
+				091283261B3BAFDD00F63590 /* InfoViewController.m in Sources */,
+				091283201B3B810A00F63590 /* DirectoryTableTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0912830A1B3B7F9700F63590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091283151B3B7F9700F63590 /* Moreau_Catholic_High_SchoolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		091283101B3B7F9700F63590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 091282F11B3B7F9600F63590 /* Moreau Catholic High School */;
+			targetProxy = 0912830F1B3B7F9700F63590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		091283021B3B7F9600F63590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091283031B3B7F9600F63590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		091283071B3B7F9600F63590 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				091283081B3B7F9600F63590 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		091283161B3B7F9700F63590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: App Club Developer (DM94UVJ7RP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: App Club Developer (DM94UVJ7RP)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		091283171B3B7F9700F63590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: App Club Developer (DM94UVJ7RP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: App Club Developer (DM94UVJ7RP)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		091283191B3B7F9700F63590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: App Club Developer (DM94UVJ7RP)";
+				INFOPLIST_FILE = "Moreau Catholic High School/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0912831A1B3B7F9700F63590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: App Club Developer (DM94UVJ7RP)";
+				INFOPLIST_FILE = "Moreau Catholic High School/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0912831C1B3B7F9700F63590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moreau Catholic High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moreau Catholic High School.app/Moreau Catholic High School";
+			};
+			name = Debug;
+		};
+		0912831D1B3B7F9700F63590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moreau Catholic High SchoolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moreau Catholic High School.app/Moreau Catholic High School";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091282ED1B3B7F9600F63590 /* Build configuration list for PBXProject "Moreau Catholic High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091283161B3B7F9700F63590 /* Debug */,
+				091283171B3B7F9700F63590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		091283181B3B7F9700F63590 /* Build configuration list for PBXNativeTarget "Moreau Catholic High School" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				091283191B3B7F9700F63590 /* Debug */,
+				0912831A1B3B7F9700F63590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0912831B1B3B7F9700F63590 /* Build configuration list for PBXNativeTarget "Moreau Catholic High SchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0912831C1B3B7F9700F63590 /* Debug */,
+				0912831D1B3B7F9700F63590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 091282EA1B3B7F9600F63590 /* Project object */;
+}
